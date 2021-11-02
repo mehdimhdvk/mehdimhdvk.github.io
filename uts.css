@@ -1,0 +1,113 @@
+body {
+    background-color:white;
+}
+.header {
+    background-color:green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.header .menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header .menu a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+}
+.header .menu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.hero{
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    background-image:url(img/laut.jpg);
+    background-size: cover;
+    background-position: 0 -30px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.hero .sambutan{
+    padding-left: 50px;
+    padding-top: 7px;
+
+}
+.hero .sambutan h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero h1{
+    font-size: 25px;
+}
+.hero h2{
+    display: none;
+    font-size: 30px;
+}
+.hero p{
+    font-size: 20px;
+    display: none;
+}
+.hero form{
+    padding: 10px;
+}
+.hero input{
+    display: block;
+    width: 90%;
+    padding:5px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.hero .sambutan .masukkan{
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    width: 40%;
+}
+.hero button{
+    color: black;
+    background: none;
+    border-radius: 15px;
+    padding: 5px;
+    width: 25%;
+    border: black 2px solid;
+    cursor: pointer;
+}
+.footer .sosmed .fu{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.footer .sosmed ul li{
+    display: inline-block;
+}
+.footer .sosmed .ig img{
+    height: 35px;
+    margin-right: 10px;
+}
+.footer .sosmed .fb img{
+    height: 35px;
+    margin-right: 10px;
+}
+.footer .sosmed .tw img{
+    height: 35px;
+}
+.footer .na a{
+    font-size: 30px;
+    display: inline;
+    margin-right: 20px;
+}
